@@ -1,0 +1,22 @@
+{
+  "name": "js-monitor",
+  "version": "1.0.0",
+  "description": "js监控sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup index.js --file bundle.js --format iife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvpangpang/js-monitor.git"
+  },
+  "author": "lvpangpang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvpangpang/js-monitor/issues"
+  },
+  "homepage": "https://github.com/lvpangpang/js-monitor#readme",
+  "dependencies": {
+    "rollup": "2.79.1"
+  }
+}
