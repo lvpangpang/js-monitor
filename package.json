@@ -1,15 +1,19 @@
 {
-  "name": "monitor-js-sdk",
+  "name": "js-sdk-monitor",
   "version": "0.0.1",
   "description": "js监控sdk",
   "main": "es/index.js",
   "scripts": {
+    "start": "rollup -c --watch",
     "build": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lvpangpang/js-monitor.git"
   },
+  "files": [
+    "es"
+  ],
   "author": "lvpangpang",
   "license": "ISC",
   "bugs": {

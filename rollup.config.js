@@ -7,7 +7,7 @@ export default {
     {
       dir: "dist",
       format: "iife",
-      name: "monitor",
+      name: "monitor"
     },
     {
       dir: "es",
@@ -16,4 +16,7 @@ export default {
     },
   ],
   plugins: [resolve(), babel({ babelHelpers: "bundled" })],
+  watch: {
+    exclude: 'node_modules/**'
+  }
 }

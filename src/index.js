@@ -1,3 +1,9 @@
-export * from './a.js'
-export * from './b.js'
+import capture from "./capture"
 
+const monitor = {
+  init: ({ server }) => {
+    capture({ server })
+  },
+}
+
+export default monitor
