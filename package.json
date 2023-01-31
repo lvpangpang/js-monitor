@@ -1,5 +1,5 @@
 {
-  "name": "js-monitor",
+  "name": "monitor-js-sdk",
   "version": "0.0.1",
   "description": "js监控sdk",
   "main": "es/index.js",
